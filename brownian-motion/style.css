@@ -1,4 +1,4 @@
-@import './canvas.css';
+@import '../canvas.css';
 
 canvas {
 	position: fixed;
