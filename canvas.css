@@ -1,0 +1,137 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  width: 100%;
+  margin: 1rem 1.5rem;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  width: 100%;
+  margin: 1rem 1.5rem;
+  text-align: left;
+}
+
+li.last {
+  margin-bottom: 2rem;
+}
+
+a {
+  color: black;
+}
+
+/*Hamburger*/
+/*/////////////////////////////////////////////////////////////*/
+
+.hamburger {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  opacity: 0.75;
+  transition: 0.1s;
+}
+
+.hamburger:hover {
+  opacity: 1;
+}
+
+.hamburger span {
+  width: 30px;
+  height: 4px;
+  background: #fff;
+  display: block;
+  border-radius: 2px;
+}
+
+.hamburger__line1 {
+  transform: rotate(0deg) translate(0px, 0px);
+  transition: 0.75s;
+  margin-top: 4px;
+}
+
+.hamburger__line2 {
+  transform: rotate(0deg) translate(0px, 0px);
+  transition: 0.5s;
+  margin-top: 4px;
+}
+
+.hamburger__line3 {
+  transform: rotate(0deg) translate(0px, 0px);
+  transition: 0.25s;
+  margin-top: 4px;
+}
+
+/*Sidebar*/
+/*/////////////////////////////////////////////////////////////*/
+
+/* Define the properties of the sidebar */
+.sidebar {
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  background: #fff;
+  left: -200px;
+  overflow: scroll;
+  opacity: 1;
+  transition: 0.1s ease-in-out;
+}
+
+/*Sliders & Labels*/
+/*/////////////////////////////////////////////////////////////*/
+button {
+  display: block;
+  width: 75%;
+  margin: 1em auto;
+  border: none;
+  background-color: #eee;
+  padding: 0.25rem;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+label,
+.sidebar__slider {
+  display: block;
+  width: 75%;
+  margin: 1em auto;
+}
+
+.sidebar__slider {
+  -webkit-appearance: none;
+  height: 4px;
+  background: #d3d3d3;
+  opacity: 0.7;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: 0.2s;
+}
+
+.sidebar__slider:hover {
+  opacity: 1;
+}
+
+.sidebar__not-a-slider {
+  display: block;
+  width: 50%;
+  margin: 0.75em auto;
+  cursor: pointer;
+}

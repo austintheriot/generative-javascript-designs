@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172422579-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-172422579-1');
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fractures</title>
+    <link rel='stylesheet' href="fractures-style.css" type="text/css"></style>
+    <script src="fractures-script.js" defer></script>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+
+    <!--/////////////////////////////////////////////////////////////-->
+  <div class='hamburger' onclick='showSliders()'>
+    <span class='hamburger__line1'></span>
+    <span class='hamburger__line2'></span>
+    <span class='hamburger__line3'></span>
+  </div>
+    <div class="sidebar">
+      <h2>See More:</h2>
+      <nav>
+        <ul>
+          <li><a href="index.html">Web Particles</a></li>
+        </ul>
+        <ul>
+          <li><a href="stochastic-roots-index.html">Stochastic Roots</a></li>
+        </ul>
+        <ul>
+          <li><a href="brownian-motion-index.html">Brownian Motion</a></li>
+        </ul>
+        <ul>
+          <li class="last"><a href="fractures-index.html">Fractures</a></li>
+        </ul>
+      </nav>
+
+      <button class="generate-new">Generate New Image</button>
+      <button class="restore-defaults">Restore Defaults</button>
+      <label for='numberOfStartingFractures'>Number of Starting Fractures</label>
+      <input
+        class='sidebar__slider'
+        type="range"
+        min="1"
+        max="100"
+        value="10"
+        step='1'
+        id="numberOfStartingFractures"
+      />
+      <label for='fractureLineSegmentLength'>Fracture Line Segment Length</label>
+      <input
+        class='sidebar__slider'
+        type="range"
+        min="1"
+        max="150"
+        value="10"
+        step='0.01'
+        id="fractureLineSegmentLength"
+      />
+      <label for='chanceOfBranchingOff'>Chance of Branching Off</label>
+      <input
+        class='sidebar__slider'
+        type="range"
+        min="0"
+        max="1"
+        step='0.01'
+        value="0.2"
+        id="chanceOfBranchingOff"
+      />
+      <label for='maxBranchLength'>Max Line Segment Length</label>
+      <input
+        class='sidebar__slider'
+        type="range"
+        min="1"
+        max="100"
+        step='0.01'
+        value="10"
+        id="maxBranchLength"
+      />
+      <label for='numberOfRandomLines'>Add In Random Lines (Optional)</label>
+      <input
+        class='sidebar__slider'
+        type="range"
+        min="0"
+        max="15"
+        step='1'
+        value="0"
+        id="numberOfRandomLines"
+      />
+      <label for='maxRandomLineLength'>Max Random Line Length (Optional)</label>
+      <input
+        class='sidebar__slider'
+        type="range"
+        min="10"
+        max="500"
+        step='0.01'
+        value="100"
+        id="maxRandomLineLength"
+      />
+      <label for='maxFrames'>Max Number of Animation Frames</label>
+      <input
+        class='sidebar__slider'
+        type="range"
+        min="1"
+        max="5000"
+        step='1'
+        value="1000"
+        id="maxFrames"
+      />
+      <label for='fractureLineWidth'>Line Width</label>
+      <input
+        class='sidebar__slider'
+        type="range"
+        min="0.1"
+        max="15"
+        step='0.01'
+        value="1"
+        id="fractureLineWidth"
+      />
+  </body>
+</html>

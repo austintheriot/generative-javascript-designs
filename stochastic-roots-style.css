@@ -1,0 +1,10 @@
+@import './canvas.css';
+
+canvas {
+	position: fixed;
+	z-index: -100;
+}
+
+.hamburger span {
+	background: #000;
+}

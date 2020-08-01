@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172422579-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-172422579-1');
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Particles</title>
+    <link rel='stylesheet' href="style.css" type="text/css"></style>
+    <script src="script.js" defer></script>
+ 
+    <body>
+  <canvas></canvas>
+
+  <!--  CREATE A ROLL-AWAY MENU -->
+  <!--/////////////////////////////////////////////////////////////-->
+  <div class='hamburger' onclick='showSliders()'>
+    <span class='hamburger__line1'></span>
+    <span class='hamburger__line2'></span>
+    <span class='hamburger__line3'></span>
+  </div>
+  <div class="sidebar">
+    <h2>See More:</h2>
+    <nav>
+      <ul>
+        <li><a href="index.html">Web Particles</a></li>
+      </ul>
+      <ul>
+        <li><a href="stochastic-roots-index.html">Stochastic Roots</a></li>
+      </ul>
+      <ul>
+        <li><a href="brownian-motion-index.html">Brownian Motion</a></li>
+      </ul>
+      <ul>
+        <li class="last"><a href="fractures-index.html">Fractures</a></li>
+      </ul>
+    </nav>
+    
+    
+    <label for='numberOfBalls'>Max Number of Balls</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0"
+      max="100"
+      step='1'
+      id="numberOfBalls"
+    />
+    <label for='maxVelocitySlider'>Max Velocity</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0"
+      max="10"
+      step='0.1'
+      id="maxVelocitySlider"
+    />
+    <label for='trailsSlider'>Trails</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0"
+      max="1"
+      step='0.01'
+      id="trailsSlider"
+    />
+    <label for='ballLinearAttractionSlider'>Attraction Between Balls (n)</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="-0.01"
+      max="0.01"
+      step='0.0001'
+      id="ballLinearAttractionSlider"
+    />
+    <label for='ballSquaredAttractionSlider'>Attraction Between Balls (n<sup>2</sup>)</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="-0.01"
+      max="0.01"
+      step='0.0001'
+      id="ballSquaredAttractionSlider"
+    />
+    <label for='mouseLinearAttractionSlider'>Attraction to Mouse (n)</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="-0.01"
+      max="0.01"
+      step='0.0001'
+      id="mouseLinearAttractionSlider"
+    />
+    <label for='mouseSquaredAttractionSlider'>Attraction to Mouse (n<sup>2</sup>)</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="-0.01"
+      max="0.01"
+      step='0.0001'
+      id="mouseSquaredAttractionSlider"
+    /> 
+    <label for='mouseCubedAttractionSlider'>Attraction to Mouse (n<sup>3</sup>)</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="-0.01"
+      max="0.01"
+      step='0.0001'
+      id="mouseCubedAttractionSlider"
+    />
+    <label for='connectionDistanceSlider'>Connection Distance</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0"
+      max="500"
+      step='1'
+      id="connectionDistanceSlider"
+    />
+    <label for='lineWidthSlider'>Line Width</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0"
+      max="5"
+      step='0.01'
+      id="lineWidthSlider"
+    />
+    <label for='accelerationDamp'>Acceleration Damp</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0"
+      max="1"
+      step='0.01'
+      id="accelerationDamp"
+    />
+    <label for='ballColor'>Ball Color</label>
+    <input class='sidebar__not-a-slider' id='ballColor' type="color" value="#ffffff">
+    <label for='canvasBounceOnOff'>Bounce On/Off</label>
+    <input
+      class='sidebar__not-a-slider'
+      type="checkbox"
+      id="canvasBounceOnOff"
+      name="bounce"
+      value="on"
+      checked
+    />
+  </div>
+  </body>
+</html>

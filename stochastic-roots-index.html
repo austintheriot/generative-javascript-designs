@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172422579-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-172422579-1');
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stochastic Roots</title>
+    <link rel='stylesheet' href="stochastic-roots-style.css" type="text/css"></style>
+    <script src="stochastic-roots-script.js" defer></script>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+
+    <!--  CREATE A ROLL-AWAY MENU -->
+  <!--/////////////////////////////////////////////////////////////-->
+  <div class='hamburger' onclick='showSliders()'>
+    <span class='hamburger__line1'></span>
+    <span class='hamburger__line2'></span>
+    <span class='hamburger__line3'></span>
+  </div>
+  <div class="sidebar">
+    <h2>See More:</h2>
+    <nav>
+      <ul>
+        <li><a href="index.html">Web Particles</a></li>
+      </ul>
+      <ul>
+        <li><a href="stochastic-roots-index.html">Stochastic Roots</a></li>
+      </ul>
+      <ul>
+        <li><a href="brownian-motion-index.html">Brownian Motion</a></li>
+      </ul>
+      <ul>
+        <li class="last"><a href="fractures-index.html">Fractures</a></li>
+      </ul>
+    </nav>
+
+    <button class="generate-new">Generate New Image</button>
+    <button class="restore-defaults">Restore Defaults</button>
+    <label for='simultaneousBranches'>Simultaneous Branches</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="1"
+      max="25"
+      step='1'
+      id="simultaneousBranches"
+    />
+    <label for='startingX'>Starting Position (x)</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0"
+      max="1"
+      step='0.001'
+      id="startingX"
+    />
+    <label for='startingY'>Starting Position (y)</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0"
+      max="1"
+      step='0.001'
+      id="startingY"
+    />
+    <label for='maxVerticalDistance'>Max Vertical Distance</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0.01"
+      max="1"
+      step='0.001'
+      id="maxVerticalDistance"
+    />
+    <label for='minimumVerticalLength'>Minimum Vertical Distance</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0.01"
+      max="1"
+      step='0.001'
+      id="minimumVerticalLength"
+    />
+    <label for='maxHorizontalDistance'>Maximum Horizontal Distance</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0.01"
+      max="1"
+      step='0.001'
+      id="maxHorizontalDistance"
+    />
+    <label for='lineWidth'>Line Width</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0.01"
+      max="5"
+      step='0.001'
+      id="lineWidth"
+    /> 
+    <label for='lineWidthMultiplier'>Line Width Falloff</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0.01"
+      max="1"
+      step='0.001'
+      id="lineWidthMultiplier"
+    />
+    <label for='lineOpacityMultiplier'>Line Opacity Falloff</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0.01"
+      max="1"
+      step='0.001'
+      id="lineOpacityMultiplier"
+    />
+    <label for='horizontalXIncrement'>Left-Right Line X Movement</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0"
+      max="25"
+      step='0.01'
+      id="horizontalXIncrement"
+    />
+    <label for='horizontalYIncrement'>Left-Right Line Y Movement</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0"
+      max="25"
+      step='0.01'
+      id="horizontalYIncrement"
+    />
+    <label for='verticalYIncrement'>Up-Down Line Y Movement</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0"
+      max="25"
+      step='0.01'
+      id="verticalYIncrement"
+    />
+    <label for='verticalXIncrement'>Up-Down Line X Movement</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0"
+      max="25"
+      step='0.01'
+      id="verticalXIncrement"
+    />
+    <label for='circleLineWidth'>Circle Line Thickness</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0.01"
+      max="25"
+      step='0.01'
+      id="circleLineWidth"
+    />
+    <label for='drawCircleProbability'>Probability of Drawing A Circle</label>
+    <input
+      class='sidebar__slider'
+      type="range"
+      min="0"
+      max="1"
+      step='0.01'
+      id="drawCircleProbability"
+    />
+  </div>
+  </body>
+</html>

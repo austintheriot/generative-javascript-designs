@@ -1,0 +1,10 @@
+@import './canvas.css';
+
+body {
+	background: #222;
+}
+
+canvas {
+	position: fixed;
+	z-index: -100;
+}
