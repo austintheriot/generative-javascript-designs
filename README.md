@@ -5,6 +5,10 @@
 2. [Tech](#tech)
 3. [Contact](#contact)
 4. [Projects](#projects)
+    1. [Web Particles](#web-particles)
+    2. [Brownian Motion](#brownian-motion)
+    3. [Fractures](#fractures)
+    4. [Stochastic Roots](#stochastic-roots)
 
 ## About
 
@@ -27,17 +31,18 @@ For questions or comments, or just to say hi, contact me on
 
 ## Projects
 
+### Web Particles
+![Web Particles](previews/2.png)
+
+### Brownian Motion
+![Brownian Motion](previews/3.png) 
+![Brownian Motion](previews/5.png) 
+
 ### Fractures
 ![Fractures](previews/1.jpg) 
 ![Fractures](previews/7.png) 
 ![Fractures](previews/9.png)
 
-### Web Particles
-![Web Particles](previews/2.png) ![Web Particles](previews/4.png)
-
-### Brownian Motion
-![Brownian Motion](previews/3.png) 
-![Brownian Motion](previews/5.png) 
 
 ### Stochastic Roots
 ![Stochastic Roots](previews/8.png)
