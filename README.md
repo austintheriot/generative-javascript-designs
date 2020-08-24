@@ -17,7 +17,7 @@ CSS to provide the settings interface.
 
 For questions or comments, or just to say hi, contact me on
 [LinkedIn](https://www.linkedin.com/in/austinmtheriot/) or on my
-[digital portfolio](https://austintheriot.com).
+[digital portfolio](https://austintheriot.com/contact).
 
 ## Example Images
 
