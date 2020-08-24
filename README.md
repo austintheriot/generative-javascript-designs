@@ -1,4 +1,4 @@
-# Canvas Projects Combined
+# Canvas Projects
 
 ## About
 
