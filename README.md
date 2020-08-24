@@ -21,8 +21,17 @@ For questions or comments, or just to say hi, contact me on
 
 ## Example Images
 
-![Fractures](previews/1.jpg) ![Web Particles](previews/2.png)
-![Brownian Motion](previews/3.png) ![Web Particles](previews/4.png)
-![Brownian Motion](previews/5.png) ![Blueprints](previews/6.jpg)
-![Fractures](previews/7.png) ![Stochastic Roots](previews/8.png)
+### Fractures
+![Fractures](previews/1.jpg) 
+![Fractures](previews/7.png) 
 ![Fractures](previews/9.png)
+
+### Web Particles
+![Web Particles](previews/2.png) ![Web Particles](previews/4.png)
+
+### Brownian Motion
+![Brownian Motion](previews/3.png) 
+![Brownian Motion](previews/5.png) 
+
+### Stochastic Roots
+![Stochastic Roots](previews/8.png)
