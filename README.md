@@ -1,5 +1,11 @@
 # Generative JavaScript Designs
 
+# Table of Contents
+1. [About](#about)
+2. [Tech](#tech)
+3. [Contact](#contact)
+4. [Projects](#projects)
+
 ## About
 
 This repository is a collection of previous JavaScript projects I've worked on
@@ -19,7 +25,7 @@ For questions or comments, or just to say hi, contact me on
 [LinkedIn](https://www.linkedin.com/in/austinmtheriot/) or on my
 [digital portfolio](https://austintheriot.com/contact).
 
-## Example Images
+## Projects
 
 ### Fractures
 ![Fractures](previews/1.jpg) 
