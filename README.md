@@ -1,4 +1,4 @@
-# Canvas Projects
+# Generative JavaScript Designs
 
 ## About
 
