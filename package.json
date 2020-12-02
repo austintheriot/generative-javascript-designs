@@ -1,0 +1,15 @@
+{
+	"name": "jsart",
+	"version": "1.0.0",
+	"description": "A web app for algorithmically generating patterns using JavaScript",
+	"main": "index.html",
+	"scripts": {
+		"start": "parcel src/index.html",
+		"build": "parcel build --no-source-maps src/index.html"
+	},
+	"author": "Austin Theriot",
+	"license": "ISC",
+	"devDependencies": {
+		"cssnano": "^4.1.10"
+	}
+}
