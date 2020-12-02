@@ -32,17 +32,29 @@ For questions or comments, or just to say hi, contact me on
 ## Projects
 
 ### Web Particles
+
+Physics-based particle playground. I originally intended for this project to serve as a lightweight background animation for a landing page. Since I've added more features and interactivity to it, however, it functions better a small particle/physics simulation app.
+
 ![Web Particles](previews/2.png)
 
 ### Brownian Motion
+
+Procedurally generated (yet aesthetic) scrbbles. Inspired by the [natural phenomenon](https://en.wikipedia.org/wiki/Brownian_motion) by the same name.
+
 ![Brownian Motion](previews/3.png) 
 ![Brownian Motion](previews/5.png) 
 
 ### Fractures
+
+This project draws inspiration from the way glass panes and ceramic dishes crack. Each line is given a random chance to break away as it travels in one direction and stops when it reaches another line.
+
 ![Fractures](previews/1.jpg) 
 ![Fractures](previews/7.png) 
 ![Fractures](previews/9.png)
 
 
 ### Stochastic Roots
+
+Uses a fractal-inspired branching technique. Creates branching networks resembling roots or trees (depending on the direction).
+
 ![Stochastic Roots](previews/8.png)
